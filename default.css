@@ -6,3 +6,7 @@ body {
 .parent {
         color: rgb(78, 78, 78);
     }
+
+.poem {
+    font-family: monospace;
+}
