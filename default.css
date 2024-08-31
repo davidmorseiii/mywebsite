@@ -1,12 +1,54 @@
 body {
     background-color: rgb(211, 211, 148);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.name {
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: rgb(78, 78, 78);
 }
 
 .parent {
         color: rgb(78, 78, 78);
     }
 
+.center {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid #555;
+}
+
+.links {
+    text-decoration: none;
+}
+
+.links:hover {
+    text-decoration: underline;
+}
+
 .poem {
     font-family: monospace;
+}
+
+.time {
+    background-color: rgb(139, 109, 91);
+}
+
+.days {
+    background-color: rgb(139, 109, 91);
+}
+
+.school {
+    background-color: rgb(194, 120, 90);
+}
+
+.work {
+    background-color: rgb(97, 97, 97);
+}
+.homework {
+    background-color: rgb(196, 29, 29);
+}
+.free {
+    background-color: rgb(32, 126, 32);
 }
