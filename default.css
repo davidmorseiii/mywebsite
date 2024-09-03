@@ -3,6 +3,15 @@ body {
     font-family: "Lucida Console", "Courier New", monospace;
 }
 
+.static-position{
+    position: static;
+    background-color: rgb(133, 120, 112);
+    border: solid 10px #555;
+    padding: 10px;
+    float: right;
+    margin-right: 10px;
+}
+
 .name {
     font-family: "Lucida Console", "Courier New", monospace;
     color: rgb(78, 78, 78);
