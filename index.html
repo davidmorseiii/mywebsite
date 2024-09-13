@@ -1,214 +1,171 @@
 <!DOCTYPE html>
-
-<!--
-Project:  Project1-About Me
-Name: David Morse
-Submitted: 8/30/24
- 
-I declare that the following source code was written by me, or provided
-by the instructor for this project. I understand that copying source
-code from any other source, providing source code to another student, 
-or leaving my code on a public web site constitutes cheating.
-I acknowledge that  If I am found in violation of this policy this may result
-in a zero grade, a permanent record on file and possibly immediate failure of the class.
- 
-Reflection: I honestly enjoyed this project. I messed around with html a lot back in 2020, and have since forgotten most
-of the basic syntax. This project was a great refresher. There was nothing inherently difficult for me, and I even enjoyed
-playing around with the table to get it to look the way I wanted. It was also great learning how to use git and github to
-host a website.
-
-https://davidmorseiii.github.io/mywebsite/
-
---SELF GRADE--
-HEADER               A
-PERSONAL INFO        A
-FAVE BOOKS           A
-HAIKU                A
-ESSAY                A
-SCHEDULE             A
-
---EXTRA ITEMS COMPLETED--Minimum of 5
-REPEATING BKG IMG (2pts)       NO
-CHANGE FONT (2pts)             YES
-RT ALIGN PHOTO (2pts)          NO
-INDENT/CENTER HAIKU (2pts)     YES
-TABLE-TEXT ALIGN (2pts)        YES
-TABLE-COLOR CODE (2pts)        YES
-TABLE-EQUAL COL WIDTH (2pts)   YES
--->
-
 <html lang="en">
- 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="default.css">
     <title>About David</title>
 </head>
-
 <body>
+    <header>
+        <img src="Profile Pic.jpg" alt="Profile Picture" class="static-position">
+        <h1>David Morse</h1>
+    </header>
 
-<img src="Profile Pic.jpg" alt="Profile Picture" class="static-position">
+    <section class="personal-info">
+        <h2>Personal Info:</h2>
+        <ul>
+            <li><b>Major:</b> Computer Science</li>
+            <li><b>Highschool:</b> Tesoro, Las Flores, CA. Class of 2020</li>
+            <li><b>Year at UVU:</b> Sophomore</li>
+            <li><b>Favorite Ice Cream:</b> Strawberry</li>
+        </ul>
+    </section>
 
-<div class="name"><h1>David Morse</h1></div>
+    <section class="favorite-books">
+        <h2>My Five Favorite Books:</h2>
+        <ol>
+            <li><i>I Hear You</i>, <a class="links" href="https://michaelssorensen.com/" target="_blank">Michael S. Sorensen</a></li>    
+            <li><i>Harry Potter and the Goblet of Fire</i>, <a class="links" href="https://www.jkrowling.com/" target="_blank">J.K. Rowling</a></li>
+            <li><i>The Hunger Games</i>, <a class="links" href="https://www.suzannecollinsbooks.com/" target="_blank">Suzanne Collins</a></li>
+            <li><i>The Lord of The Rings Trilogy</i>, <a class="links" href="https://www.tolkienestate.com/" target="_blank">J.R.R Tolkien</a></li>
+            <li><i>The Catcher in the Rye</i>, <a class="links" href="https://en.wikipedia.org/wiki/J._D._Salinger" target="_blank">J.D. Salinger</a></li>
+        </ol>
+    </section>
 
-<div class="parent"><h2>Personal Info:</h2></div>
-<ul>
-<li><b>Major:</b> Computer Science</li>
-<li><b>Highschool:</b> Tesoro, Las Flores, CA. Class of 2020</li>
-<li><b>Year at UVU:</b> Sophmore</li>
-<li><b>Favorite Ice Cream:</b> Strawberry</li>
-</ul>
+    <section class="poem">
+        <h2>Short Poem</h2>
+        <h4>A poem about some adventurous, yet unfortunate bees.</h4>
+        <p><i>The bees in the trees<br>
+        Feel the breeze from the seas<br>
+        On a boat that can float<br>
+        No need to gloat<br>
+        <br>
+        The horn sounds the storm<br>
+        The ship turned around<br>
+        The bees on the seas<br>
+        Trying not the drown</i></p>
+    </section>
 
-<div class="parent"><h2>My Five Favorite Books:</h2></div>
-<ol>
-<li><i>I Hear You</i>, <a class="links" href="https://michaelssorensen.com/" target="_blank">Michael S. Sorensen</a></li>    
-<li><i>Harry Potter and the Goblet of Fire</i>, <a class="links" href="https://www.jkrowling.com/" target="_blank">J.K. Rowling</a></li>
-<li><i>The Hunger Games</i>, <a class="links" href="https://www.suzannecollinsbooks.com/" target="_blank">Suzanne Collins</a></li>
-<li><i>The Lord of The Rings Trilogy</i>, <a class="links" href="https://www.tolkienestate.com/" target="_blank">J.R.R Tolkien</a></li>
-<li><i>The Catcher in the Rye</i>, <a class="links" href="https://en.wikipedia.org/wiki/J._D._Salinger" target="_blank">J.D. Salinger</a></li>
-</ol>
+    <section class="personal-interests">
+        <h2>My Personal Interests</h2>
+        <p>I became interested in cyber security at a young age, partly due to my unwillingness to concede to<br>
+        the restrictions my parents would put on my devices, and partly because the idea that nothing is<br>
+        unhackable fascinated me. I loved the thrill of macspoofing, rendering router restrictions useless,<br>
+        extracting/bruteforcing restriction passcode hashes, and proving to my friends that I could "guess"<br>
+        their wifi password. Such experiences have inspired me to want to learn how to identify <br>
+        vulnerabilities and keep software secure as more and more of our lives involve the internet.</p>
+        <p>Last summer, my now wife, got me into rock climbing, and it's something I really enjoy doing on<br>
+        weekends. There's a big difference between outdoor and indoor climbing. I love indoor climbing<br>
+        when I want to really work on my technique, but outdoor climbing is my favorite as it brings<br>
+        a certain thrill that you don't get in the climbing gym. I think it has to do with the fact<br>
+        that if I slip outdoors, I'm falling the distance from the last bolt, plus the slack in the<br>
+        rope. Let's just say that's not a fun slam against the ragged stone.</p>
+        <p>I served as a missionary for my church, and was fortunate enough to learn Spanish during my service.<br>
+        Speaking Spanish has given me the opportunity to connect with many different cultures on a very<br>
+        personal level. I love hearing the personal experiences of others who come from very different<br>
+        countries and backgrounds. I also love listening to Spanish music, such as reggaeton and bachata.</p>
+    </section>
 
-<br>
-<br>
-
-<div class="parent" align="center"><h2>Short Poem</h2>
-<h4>A poem about some adventurous, yet unfortunate bees.</h4></div>
-
-<div class="poem" align="center">
-<p><i>The bees in the trees<br>
-Feel the breeze from the seas<br>
-On a boat that can float<br>
-No need to gloat<br>
-<br>
-The horn sounds the storm<br>
-The ship turned around<br>
-The bees on the seas<br>
-Trying not the dround</i></p>
-</div>
-<div class="parent"><h2>My Personal Interests</h2></div>
-<p>I became interested in cyber security at young age, partly due to my unwillingness to concede to<br>
-    the restrictions my parents would put on my devices, and partly because the idea that nothing is<br>
-    unhackable fascinated me. I loved the thrill of macspoofing, rendering router restrictions useless,<br>
-    extracting/bruteforcing restriction passcode hashes, and proving to my friends that I could "guess"<br>
-    their wifi password. Such experiences have inspired me to want to learn how to identify <br>
-    vulnerabilities and keep software secure as more and more of our lives involve the internet.</p>
-<p>Last summer, my now wife, got me into rock climbing, and it's something I really enjoy doing on<br>
-    weekends. There's a big difference between outdoor and indoor climbing. I love indoor climbing<br>
-    when I want to really work on my technique, but outdoor climbing is my favorite as it brings<br>
-    a certain thrill that you don't get in the climbing gym. I think it has to do with the fact<br>
-    that if I slip out doors, I'm falling the distance from the last bolt, plus the slack in the<br>
-    rope. Let's just say that's not a fun slam against the ragged stone.
-</p>
-<p>I served as missionary for my church, and was fortunate enough to learn Spanish during my service<br>
-    Speaking Spanish has given me the opportunity to connect with many different cultures on a very<br>
-    personal level. I love hearing the personal experiences of other's who come from very different<br>
-    countries and backgrounds. I also love listening to Spanish music, such as reggeaton and bachata.
-</p>
-
-<div class="parent" align="center"><h2>My Schedule</h2></div>
-<table align="center" border="1">
-    <tr class="days" align="center">
-        <th></th>
-        <th width="200">Monday</th>
-        <th width="200">Tuesday</th>
-        <th width="200">Wednesday</th>
-        <th width="200">Thursday</th>
-        <th width="200">Friday</th>
-    </tr>
-    <tr align="center">
-        <td class="time">8:00</td>
-        <td class="free" colspan="5" rowspan="2">Get Ready/Eat Breakfast</td>
-    </tr>
-    <tr align="center">
-        <td class="time">8:30</td>
-    </tr>
-    <tr align="center">
-        <td class="time">9:00</td>
-        <td class="free" colspan="5" rowspan="2">Commute to School</td>
-    </tr>
-    <tr align="center">
-        <td class="time">9:30</td>
-    </tr>
-    <tr align="center">
-        <td class="time">10:00</td>
-        <td class="school" rowspan="2">MATH 1060</td>
-        <td class="homework" rowspan="3">Homework</td>
-        <td class="school" rowspan="2">MATH 1060</td>
-        <td class="homework" rowspan="3">Homework</td>
-        <td class="school" rowspan="2">MATH 1060</td>
-    </tr>
-    <tr align="center">
-        <td class="time">10:30</td>
-    </tr>
-    <tr class="school" align="center">
-        <td class="time">11:00</td>
-        <td rowspan="2">COMM 2110</td>
-        <td rowspan="2">COMM 2110</td>
-        <td rowspan="2">COMM 2110</td>
-    </tr>
-    <tr class="school" align="center">
-        <td class="time">11:30</td>
-        <td rowspan="3">CS 2420</td>
-        <td rowspan="3">CS 2420</td>
-    </tr>
-    <tr class="school" align="center">
-        <td class="time">12:00</td>
-        <td rowspan="2">SPAN 3200</td>
-        <td rowspan="2">SPAN 3200</td>
-        <td rowspan="2">SPAN 3200</td>
-    </tr>
-    <tr align="center">
-        <td class="time">12:30</td>
-    </tr>
-    <tr align="center">
-        <td class="time">1:00</td>
-        <td class="homework" rowspan="3">Homework</td>
-        <td class="school" rowspan="3">CS 2550</td>
-        <td class="homework" rowspan="3">Homework</td>
-        <td class="school" rowspan="3">CS 2550</td>
-        <td class="homework" rowspan="3">Homework</td>
-    </tr>
-    <tr align="center">
-        <td class="time">1:30</td>
-    </tr>
-    <tr align="center">
-        <td class="time">2:00</td>
-    </tr>
-    <tr align="center">
-        <td class="time">2:30</td>
-        <td class="free" colspan="5">Eat</td>
-    </tr>
-    <tr class="work" align="center">
-        <td class="time">3:00</td>
-        <td rowspan="8">Work</td>
-        <td rowspan="8">Work</td>
-        <td rowspan="8">Work</td>
-        <td rowspan="8">Work</td>
-        <td rowspan="8">Work</td>
-    </tr>
-    <tr align="center">
-        <td class="time">3:30</td>
-    </tr>
-    <tr align="center">
-        <td class="time">4:00</td>
-    </tr>
-    <tr align="center">
-        <td class="time">4:30</td>
-    </tr>
-    <tr align="center">
-        <td class="time">5:00</td>
-    </tr>
-    <tr align="center">
-        <td class="time">5:30</td>
-    </tr>
-    <tr align="center">
-        <td class="time">6:00</td>
-    </tr>
-    <tr align="center">
-        <td class="time">6:30</td>
-    </tr>
-</table>
-<br>
-
-</body>
-</html>
+    <section class="schedule">
+        <h2>My Schedule</h2>
+        <table>
+            <thead>
+                <tr class="days">
+                    <th></th>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="time">8:00</td>
+                    <td class="free" colspan="5" rowspan="2">Get Ready/Eat Breakfast</td>
+                </tr>
+                <tr>
+                    <td class="time">8:30</td>
+                </tr>
+                <tr>
+                    <td class="time">9:00</td>
+                    <td class="free" colspan="5" rowspan="2">Commute to School</td>
+                </tr>
+                <tr>
+                    <td class="time">9:30</td>
+                </tr>
+                <tr>
+                    <td class="time">10:00</td>
+                    <td class="school" rowspan="2">MATH 1060</td>
+                    <td class="homework" rowspan="3">Homework</td>
+                    <td class="school" rowspan="2">MATH 1060</td>
+                    <td class="homework" rowspan="3">Homework</td>
+                    <td class="school" rowspan="2">MATH 1060</td>
+                </tr>
+                <tr>
+                    <td class="time">10:30</td>
+                </tr>
+                <tr class="school">
+                    <td class="time">11:00</td>
+                    <td rowspan="2">COMM 2110</td>
+                    <td rowspan="2">COMM 2110</td>
+                    <td rowspan="2">COMM 2110</td>
+                </tr>
+                <tr class="school">
+                    <td class="time">11:30</td>
+                    <td rowspan="3">CS 2420</td>
+                    <td rowspan="3">CS 2420</td>
+                </tr>
+                <tr class="school">
+                    <td class="time">12:00</td>
+                    <td rowspan="2">SPAN 3200</td>
+                    <td rowspan="2">SPAN 3200</td>
+                    <td rowspan="2">SPAN 3200</td>
+                </tr>
+                <tr>
+                    <td class="time">12:30</td>
+                </tr>
+                <tr>
+                    <td class="time">1:00</td>
+                    <td class="homework" rowspan="3">Homework</td>
+                    <td class="school" rowspan="3">CS 2550</td>
+                    <td class="homework" rowspan="3">Homework</td>
+                    <td class="school" rowspan="3">CS 2550</td>
+                    <td class="homework" rowspan="3">Homework</td>
+                </tr>
+                <tr>
+                    <td class="time">1:30</td>
+                </tr>
+                <tr>
+                    <td class="time">2:00</td>
+                </tr>
+                <tr>
+                    <td class="time">2:30</td>
+                    <td class="free" colspan="5">Eat</td>
+                </tr>
+                <tr class="work">
+                    <td class="time">3:00</td>
+                    <td rowspan="8">Work</td>
+                    <td rowspan="8">Work</td>
+                    <td rowspan="8">Work</td>
+                    <td rowspan="8">Work</td>
+                    <td rowspan="8">Work</td>
+                </tr>
+                <tr>
+                    <td class="time">3:30</td>
+                </tr>
+                <tr>
+                    <td class="time">4:00</td>
+                </tr>
+                <tr>
+                    <td class="time">4:30</td>
+                </tr>
+                <tr>
+                    <td class="time">5:00</td>
+                </tr>
+                <tr>
+                    <td class="time">5:30</td>
+                </tr>
+                <tr>
+                    <td class="time">6:00
