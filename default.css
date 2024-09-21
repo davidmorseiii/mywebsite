@@ -17,9 +17,22 @@ body {
     color: rgb(78, 78, 78);
 }
 
-.parent {
-        color: rgb(78, 78, 78);
-    }
+.personal-info {
+    color: rgb(78, 78, 78);
+}
+
+.favorite-books {
+    color: rgb(78, 78, 78);
+}
+
+.poem {
+    color: rgb(78, 78, 78);
+    font-family: monospace;
+}
+
+.about-me {
+    color: rgb(78, 78, 78);
+}
 
 .center {
     display:block;
@@ -34,10 +47,6 @@ body {
 
 .links:hover {
     text-decoration: underline;
-}
-
-.poem {
-    font-family: monospace;
 }
 
 .time {
